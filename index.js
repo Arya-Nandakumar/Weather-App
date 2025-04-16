@@ -1,7 +1,7 @@
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "cdea1008d5855f516a4486366326708a";
+const apiKey = "";
 
 weatherForm.addEventListener("submit", async event => {
     event.preventDefault(); //Stop reloading
